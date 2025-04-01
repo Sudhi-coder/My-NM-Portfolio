@@ -1,0 +1,133 @@
+/* Elegant Green Contrast Theme */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0b3d02;
+    color: #e0ffe0;
+    text-align: center;
+}
+
+/* Header with Gradient */
+header {
+    padding: 2rem;
+    background: linear-gradient(135deg, #4CAF50, #1B5E20);
+    box-shadow: 0px 4px 15px rgba(76, 175, 80, 0.6);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* Profile Picture Enhancements */
+.profile-picture {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #66ff66;
+    box-shadow: 0px 0px 15px #66ff66;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px #66ff66;
+}
+
+/* Title and Subtitle */
+h1 {
+    margin: 15px 0;
+    font-size: 2.5rem;
+    color: #66ff66;
+    text-shadow: 2px 2px 10px rgba(76, 255, 76, 0.6);
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background: #4CAF50;
+    padding: 12px 25px;
+    margin: 8px;
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(76, 175, 80, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background: #388E3C;
+    box-shadow: 0px 4px 15px rgba(76, 175, 80, 0.7);
+    transform: translateY(-3px);
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(34, 85, 34, 0.95);
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(76, 175, 80, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 20px rgba(76, 175, 80, 0.6);
+}
+
+h2 {
+    color: #66ff66;
+    border-bottom: 2px solid #66ff66;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Download Button */
+.download-button {
+    display: inline-block;
+    background: #4CAF50;
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(76, 175, 80, 0.5);
+    text-transform: uppercase;
+}
+
+.download-button:hover {
+    background: #388E3C;
+    box-shadow: 0px 4px 20px rgba(76, 175, 80, 0.8);
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: linear-gradient(135deg, #1B5E20, #4CAF50);
+    margin-top: 20px;
+    box-shadow: 0px -4px 15px rgba(76, 175, 80,

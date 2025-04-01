@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sudhiksha A.V</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        
+        header {
+            background: #fff;
+            padding: 15px 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 10px 15px;
+        }
+        
+        .cta {
+            background: #ff5a5f;
+            color: #fff !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 10%;
+            background: #eef2f3;
+        }
+        
+        .hero-text {
+            max-width: 500px;
+        }
+        
+        .tagline {
+            color: #ff5a5f;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        
+        .hero h1 {
+            font-size: 42px;
+            color: #222;
+        }
+        
+        .hero h1 span {
+            color: #ff5a5f;
+        }
+        
+        .hero p {
+            color: #555;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        
+        .buttons {
+            margin-top: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin-right: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        
+        .primary {
+            background: #ff5a5f;
+            color: #fff;
+        }
+        
+        .secondary {
+            background: transparent;
+            color: #333;
+            border: 2px solid #333;
+        }
+        
+        .btn:hover {
+            opacity: 0.8;
+        }
+        
+        .hero-image img {
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* About Me section styling */
+        .about-me {
+            display: none;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .about-me h2 {
+            font-size: 30px;
+            color: #333;
+        }
+        
+        .about-me p {
+            color: #555;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="showHomeContent()">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="tagline">GET EVERY SINGLE SOLUTION.</p>
+            <h1>I'm <span>Sudhiksha A.V</span></h1>
+            <p>I'm a passionate graphic designer and developer specializing in animation and UI/UX.</p>
+            <div class="buttons">
+                <a href="#about" class="btn primary">Learn More</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://media-hosting.imagekit.io//7838f8f5e54a4aae/Sudhiksha%20Resume%20pic.jpg?Expires=1837409034&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Fn0tQK029TIL~P1tEAKUi8Un~Xz1QrlbcngNczfgpuB5~KWYTtl0yJNrkeS~-B0abt9E3yr~yub~t8mMG7QtGfkiKxo7Z5mTMDuz4hY72aVg3w9~Ck4PTm~Eo2fZPNol~tL~0A2Kbr~Nq2ORhPc~XM4Y6DVOPXt3Ioj9v9e~1K~lLCGQlPxrkhRZA~MyMN7~8a7CRQ~YGlcgWyeiscJzQutR3yPolrMtJ2Xsk~gSW3-InnmTKzOf4eK0ItheHJu99ycjXAc3z8KttXSjZ4ogIWWGpjkE5mdxdIqMqGjGHVBRFVuTDJPYxS3oBaYEbCHKIbL5askHXI5sKHwJXC1TAA__" alt="Sheeba A">
+        </div>
+    </section>
+
+    <!-- About Me Section, initially hidden -->
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>
+            I am Sudhiksha A.V, a passionate and creative graphic designer and developer. I specialize in animation, UI/UX design, and front-end development. My mission is to design innovative and intuitive digital experiences that captivate and engage users. I am always exploring new technologies and design trends to bring fresh perspectives to my projects.
+        </p>
+    </section>
+    <!-- Contact Section, initially hidden -->
+<section id="contact" class="contact-section" style="display: none; text-align: center; padding: 40px;">
+    <h2>Contact Me</h2>
+    <p>Email: sudhikshaa97@gmail.com</p>
+    <p>Phone: +91 9489167068</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sudhiksha-av" target="_blank">linkedin.com/in/sudhiksha-av</a></p>
+</section>
+
+<script>
+    function showContactContent() {
+        document.querySelector('.contact-section').style.display = 'block';
+    }
+
+    document.querySelector('a[href="#contact"]').addEventListener('click', function(event) {
+        event.preventDefault();
+        showContactContent();
+    });
+</script>
+
+
+    <script>
+        // JavaScript function to toggle visibility of the About Me section
+        function showHomeContent() {
+            const aboutSection = document.querySelector('.about-me');
+            aboutSection.style.display = aboutSection.style.display === 'none' || aboutSection.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
